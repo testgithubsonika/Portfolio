@@ -1,0 +1,83 @@
+<svg viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Outer glow ring -->
+  <circle cx="140" cy="140" r="130" fill="url(#outerGlow)" opacity="0.15"/>
+  <circle cx="140" cy="140" r="124" stroke="#00e5a0" stroke-width="1.5" opacity="0.3" stroke-dasharray="8 4"/>
+
+  <!-- Background circle -->
+  <circle cx="140" cy="140" r="118" fill="#071510"/>
+  <circle cx="140" cy="140" r="118" fill="url(#bgGrad)"/>
+
+  <!-- Decorative arc top -->
+  <path d="M 60 60 A 100 100 0 0 1 220 60" stroke="#00e5a0" stroke-width="1" opacity="0.2" fill="none"/>
+
+  <!-- Shoulder / body -->
+  <path d="M 60 260 Q 70 210 100 200 Q 120 195 140 195 Q 160 195 180 200 Q 210 210 220 260 Z" fill="#1a3d2b"/>
+  <!-- Collar -->
+  <path d="M 128 197 L 140 215 L 152 197 Q 140 202 128 197 Z" fill="#0c201a"/>
+
+  <!-- Hoodie green accent stripe -->
+  <path d="M 100 200 Q 120 196 140 195 Q 160 196 180 200 L 178 206 Q 158 200 140 199 Q 122 200 102 206 Z" fill="#00e5a0" opacity="0.25"/>
+
+  <!-- Neck -->
+  <rect x="130" y="172" width="20" height="28" rx="10" fill="#c8845a"/>
+
+  <!-- Head -->
+  <ellipse cx="140" cy="148" rx="48" ry="50" fill="#c8845a"/>
+
+  <!-- Hair — long, dark, parted in middle -->
+  <!-- Top/crown -->
+  <path d="M 95 135 Q 98 100 140 95 Q 182 100 185 135 Q 188 112 175 98 Q 158 82 140 80 Q 122 82 105 98 Q 92 112 95 135 Z" fill="#120500"/>
+  <!-- Left flowing side -->
+  <path d="M 93 138 Q 84 158 86 185 Q 88 205 95 220 Q 100 215 98 195 Q 96 168 100 145 Z" fill="#120500"/>
+  <!-- Right flowing side -->
+  <path d="M 187 138 Q 196 158 194 185 Q 192 205 185 220 Q 180 215 182 195 Q 184 168 180 145 Z" fill="#120500"/>
+  <!-- Hair shine -->
+  <path d="M 128 90 Q 140 86 152 90 Q 144 93 140 93 Q 136 93 128 90 Z" fill="#1f0800" opacity="0.6"/>
+
+  <!-- Face features -->
+  <!-- Eyes - almond shaped, feminine -->
+  <path d="M 118 140 Q 124 135 130 138 Q 124 143 118 140 Z" fill="#120500"/>
+  <path d="M 150 138 Q 156 135 162 140 Q 156 143 150 138 Z" fill="#120500"/>
+  <!-- Eye highlights -->
+  <circle cx="122" cy="138" r="2" fill="white" opacity="0.85"/>
+  <circle cx="154" cy="138" r="2" fill="white" opacity="0.85"/>
+  <!-- Eyebrows — defined -->
+  <path d="M 114 128 Q 122 124 130 127" stroke="#120500" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M 150 127 Q 158 124 166 128" stroke="#120500" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Eyelashes (top) -->
+  <path d="M 118 135 Q 116 131 117 128" stroke="#120500" stroke-width="1" stroke-linecap="round"/>
+  <path d="M 162 135 Q 164 131 163 128" stroke="#120500" stroke-width="1" stroke-linecap="round"/>
+  <!-- Nose - delicate -->
+  <path d="M 137 150 Q 140 156 143 150" stroke="#a06040" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <!-- Lips -->
+  <path d="M 128 165 Q 134 162 140 163 Q 146 162 152 165" stroke="#c07070" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M 128 165 Q 134 170 140 171 Q 146 170 152 165" stroke="#c07070" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <!-- Lip fill -->
+  <path d="M 128 165 Q 140 163 152 165 Q 146 170 140 171 Q 134 170 128 165 Z" fill="#d08080" opacity="0.5"/>
+  <!-- Cheeks -->
+  <ellipse cx="118" cy="158" rx="10" ry="6" fill="#e88080" opacity="0.2"/>
+  <ellipse cx="162" cy="158" rx="10" ry="6" fill="#e88080" opacity="0.2"/>
+
+  <!-- Earrings - green teardrop -->
+  <ellipse cx="93" cy="152" rx="4" ry="6" fill="#00e5a0" opacity="0.85"/>
+  <circle cx="93" cy="145" r="3" fill="#00e5a0"/>
+  <ellipse cx="187" cy="152" rx="4" ry="6" fill="#00e5a0" opacity="0.85"/>
+  <circle cx="187" cy="145" r="3" fill="#00e5a0"/>
+
+  <!-- Small floating code element top-right inside circle -->
+  <rect x="168" y="96" width="44" height="22" rx="5" fill="#0c201a" opacity="0.9" stroke="#00e5a0" stroke-width="0.8" stroke-opacity="0.4"/>
+  <text x="174" y="107" font-family="monospace" font-size="7" fill="#00e5a0" opacity="0.8">&lt;dev /&gt;</text>
+  <text x="174" y="115" font-family="monospace" font-size="6" fill="#4ade80" opacity="0.6">AI • ML</text>
+
+  <!-- Defs -->
+  <defs>
+    <radialGradient id="outerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5a0"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+    <radialGradient id="bgGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#0c2018"/>
+      <stop offset="100%" stop-color="#060d0a"/>
+    </radialGradient>
+  </defs>
+</svg>
