@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
 import Techstack from "./Techstack";
 import AboutCard from "./AboutCard";
 import aboutImg from "../../Assets/home-main.svg"; // female dev illustration
