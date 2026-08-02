@@ -30,7 +30,7 @@ function About() {
                   marginBottom: "12px",
                 }}
               >
-                // who I am
+                {/* // who I am */}
               </p>
               <h1
                 style={{
@@ -77,7 +77,7 @@ function About() {
               marginBottom: "8px",
             }}
           >
-            // tech stack
+            {/* // tech stack */}
           </p>
           <h1 className="project-heading" style={{ textAlign: "center" }}>
             Professional <strong className="purple">Skillset</strong>
