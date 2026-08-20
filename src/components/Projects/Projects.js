@@ -22,7 +22,7 @@ const projects = [
     title: "Sentinel",
     description:
       "AI-powered behavioral anomaly detection system for cybersecurity. Detects brute-force logins, impossible travel, and unusual access patterns in real time via WebSockets. Uses Isolation Forest + Bi-LSTM + XGBoost with SHAP explainability.",
-    ghLink: "https://github.com/testgithubsonika",
+    ghLink: "https://github.com/testgithubsonika/sentiAi",
     demoLink: "https://senti-ai-e8kb.vercel.app/",
     tags: ["React", "FastAPI", "PyTorch", "XGBoost", "SHAP", "WebSockets"],
     icon: "🛡️",
@@ -31,7 +31,7 @@ const projects = [
     title: "JourneyWithMe",
     description:
       "A travel companion web application built for planning and sharing journeys. Explore destinations, log experiences, and collaborate with fellow travellers.",
-    ghLink: "https://github.com/testgithubsonika",
+    ghLink: "https://github.com/testgithubsonika/JourneyWithMe",
     demoLink: "https://journeywithme-two.vercel.app/",
     tags: ["React", "Tailwind CSS", "Node.js"],
     icon: "✈️",
@@ -40,7 +40,7 @@ const projects = [
      title: "TripSure",
     description:
       "AI-powered train ticket booking platform. Users can search trains, book & cancel tickets, and view booking history. ML model (XGBoost via FastAPI) predicts confirmation likelihood. Backed by PostgreSQL, Redis caching, JWT + Google OAuth.",
-    ghLink: "https://github.com/testgithubsonika",
+    ghLink: "https://github.com/testgithubsonika/turbo-waddle",
     demoLink: "https://turbo-waddle-phi.vercel.app/",
     tags: ["React", "Node.js", "PostgreSQL", "FastAPI", "XGBoost", "Redis"],
     icon: "🚆",
@@ -49,9 +49,9 @@ const projects = [
     title: "ScoutMind",
     description:
       "Candidate dashboard for a recruitment intelligence platform. Features profile management, application tracking, and AI-assisted screening insights for job seekers.",
-    ghLink: "https://github.com/testgithubsonika",
-    demoLink: "https://scout-mind-five.vercel.app/candidate/dashboard",
-    tags: ["React", "Dashboard", "Tailwind CSS"],
+    ghLink: "https://github.com/testgithubsonika/ScoutMind",
+    demoLink: "http://13.206.133.126:5173",
+    tags: ["React", "Tailwind CSS", "Spring Boot", "FastAPI", "PostgreSQL"],
     icon: "🔍",
   },
 ];
