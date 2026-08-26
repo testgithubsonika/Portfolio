@@ -50,7 +50,7 @@ const projects = [
     description:
       "Candidate dashboard for a recruitment intelligence platform. Features profile management, application tracking, and AI-assisted screening insights for job seekers.",
     ghLink: "https://github.com/testgithubsonika/ScoutMind",
-    demoLink: "http://13.206.133.126:5173",
+    demoLink: "https://scout-mind-five.vercel.app",
     tags: ["React", "Tailwind CSS", "Spring Boot", "FastAPI", "PostgreSQL"],
     icon: "🔍",
   },
